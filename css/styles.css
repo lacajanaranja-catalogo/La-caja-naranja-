@@ -92,17 +92,26 @@ line-height: 1;
   margin-top: 18px;
   font-size: 18px;
   color: #a9a9a9;
-  .menu-toggle {
+.menu-toggle {
   display: none;
+  align-items: center;
+  gap: 8px;
   background: none;
   border: none;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
   cursor: pointer;
 }
-} @media (max-width: 768px) {
+
+.menu-toggle span {
+  font-size: 25px;
+  line-height: 1;
+}
+ @media (max-width: 768px) {
 .menu-toggle {
-  display: block;
+  display: flex;
 }
 
 .nav {
